@@ -31,7 +31,9 @@
         </aop:aspect>
     </aop:config>-->
     <!--方式三-->
+    <!--
     <bean id="annotationPointCut" class="com.yyx.diy.AnnotationPointCut"/>
-    <!--开启注解支持-->
     <aop:aspectj-autoproxy/>
+    -->
+
 </beans>
